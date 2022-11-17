@@ -4,7 +4,7 @@
   "description": "Swag Labs - Sauce Application Automation",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 10000 testCases/login.spec.js --reporter mochawesome"
+    "test": "mocha --timeout 10000 testCases/*.spec.js --reporter mochawesome"
   },
   "author": "Darko Stojanovski",
   "license": "ISC",
