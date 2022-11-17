@@ -11,6 +11,6 @@ The "utilities" directory contains files which store data that is used in test c
 In the "package.json" file, every dependecy has a star (*) for it's version. This installs the latest version of the dependency when "npm install" is executed\
 In the "scripts" object hash, there is the "test" line which lets the user simply type in "npm test" in the CLI so every test case can be executed. A "--reporter" flag is used so after the test cases complete running, a Mochawesome HTML Report can be generated. The newly generated report overwrites the current one\
 
-Example Mochawesome HTML Report results:\
+Example Mochawesome HTML Report results:
 
 ![image](https://user-images.githubusercontent.com/63027446/202567199-f0f245cf-344a-4bab-8d61-6687116b0cee.png)
